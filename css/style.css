@@ -1,0 +1,64 @@
+body,
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+.supercontenidor {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+}
+
+.contenidor {
+    position: absolute;
+    height: calc(100% - 200px);
+    width: calc(100% - 200px);
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 100px;
+}
+
+.contenidor p {
+    padding: 30px;
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#primer {
+    /*https://webgradients.com/*/
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+#segon {
+    background-color: aquamarine;
+}
+
+#segon img {
+    left: 10%;
+}
+
+#tercer {
+    /*background-color: dodgerblue;*/
+    /*https://webgradients.com/*/
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+#quart {
+    background-color: dodgerblue;
+}
+
+#cinque {
+    background-color: darkturquoise
+}
